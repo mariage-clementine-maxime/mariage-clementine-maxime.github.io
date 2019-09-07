@@ -186,49 +186,30 @@
                             <p>
                                 Lorsque vous serez arrivés à décoder la ville cachée, testez votre proposition dans le champ ci-dessous en n'oubliant pas d'expliquer brièvement votre raisonnement (les attaques par brute force ne seront bien sûr pas considérées comme valides &#x1F60B;). 
                             </p>
-                            <form method="post" action="send_mail.php">
-                            <p>
-                            <label>First Name
-                            <input type="text" name="first_name" required>
-                            </label> 
-                            </p>
-                            <p>
-                            <label>Email 
-                            <input type="email" name="email_address">
-                            </label>
-                            </p>
-                            <p>
-                            <label>Comments
-                            <textarea name="comments" maxlength="500"></textarea>
-                            </label>
-                            </p>
-                            <p><button>Submit the form</button></p>
-                            </form>
-
-                            <!-- <form method="post" action="send_mail.php">
-                                  <div class="row">
+                            <div style="margin-left:15px">
+                            <form action="https://formspree.io/maxime.vono@gmail.com" method="POST">
+                                <div class="row">
                                     <label class="required" for="name">Votre nom :</label><br />
                                     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                                    <span id="name_validation" class="error_message"></span>
                                   </div>
                                   <div class="row">
                                     <label class="required" for="email">Votre adresse mail :</label><br />
                                     <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                                    <span id="email_validation" class="error_message"></span>
                                   </div>
                                   <div class="row">
                                     <label class="required" for="email">La ville mystère :</label><br />
                                     <input id="town" class="input" name="town" type="text" value="" size="30" /><br />
-                                    <span id="town_validation" class="error_message"></span>
                                   </div>
                                   <div class="row">
                                     <label class="required" for="message">Votre raisonnement :</label><br />
                                     <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-                                    <span id="message_validation" class="error_message"></span>
                                   </div>
-                                    
-                                    <input id="submit_button" type="submit" value="Envoyer !" />
-                            </form> -->
+                                  <input id="submit_button" type="submit" value="Envoyer !" />
+                   <!--            <input type="text" name="name">
+                              <input type="email" name="_replyto">
+                              <input type="submit" value="Send"> -->
+                            </form>
+                        </div>
                             
                         </div>
                 </div>
@@ -241,7 +222,7 @@
         </div>
 </section>
 
-		<section id="services">
+		<!-- <section id="services">
 
   
     
@@ -440,7 +421,7 @@ Double Queen Room $149 per night</p>
 		</div>
 
 	</div>
-</section>
+</section> -->
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
