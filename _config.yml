@@ -1,0 +1,56 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://mariage-clementine-maxime.github.io
+title: Mariage de Clémentine & Maxime
+#email: chuglywed@gmail.com
+#author: Chelsey Contillo and Michael Gully-Santiago
+#description: > # "Homepage for Chelsey Contillo and Michael Gully-Santiago
+# wedding in Austin Texas on October 28, 2017.
+copyright: 'Copyright &copy; 2019 Clémentine & Maxime. Tous droits réservés.'
+#credits: 'Credits: forked from Shane Weng.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: true             # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos"           # Title for gallery index page
+  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  auto_orient: false        # False by defeault. When activated it rotates the images based on the exifr.
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 300                  # max width of thumbnails (in pixels)
+    y: 300                  # max height of thumbnails (in pixels)
+
+# social:
+#   - title: github
+#     text: Blog
+#     url: http://chugly.github.io/
+#   - title: instagram
+#     text: Photos
+#     url: https://www.instagram.com/explore/tags/chuglywed/
+#   - title: shower
+#     text: Airbnb
+#     url: https://www.airbnb.com/wishlists/204150664/join?invite_code=QNCUYPRG&inviter_id=583562
+#   - title: spotify
+#     text: Playlist
+#     url: https://open.spotify.com/user/126045799/playlist/1KnnWPmEOm3PiQ93mpAQuF
+#   - title: envelope-open-o
+#     text: RSVP
+#     url: https://goo.gl/forms/PDVQXXai2lVgKkqW2
+#   - title: gift
+#     text: Registry
+#     url: https://www.zola.com/registry/chugly
