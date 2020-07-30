@@ -582,6 +582,16 @@ video {
     color: gray;
 }
 
+.footer-shadow2 {
+    position:relative;
+    height: 800px;
+    margin-top:0px;
+    width: 100%;
+    background: url('../../../img/footer/img_footer2.jpg') center center no-repeat;
+    background-size: cover;
+    color: gray;
+}
+
 .top2 {
   background-color: #264356;
   height: 200px;
